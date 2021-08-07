@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testClean.CRUDProjectTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-07T00:33:10" hostname="DESKTOP-N4GNA79" time="4.483">
+  <properties/>
+  <testcase name="deleteItem()" classname="testClean.CRUDProjectTest" time="4.483"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	http://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZmxhQGNydWRJdGVtcy5jb206Q1JVRA==
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"FlaItem"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=hpfjlienbtfaonta1bqq2c30; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 07 Aug 2021 00:33:07 GMT
+Content-Length: 528
+
+{
+    "Id": 10910448,
+    "Content": "FlaItem",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628296387796)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628296387780)/",
+    "LastCheckedDate": null,
+    "LastUpdatedDate": "/Date(1628296387780)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690475
+}
+ID: 10910448
+Request method:	DELETE
+Request URI:	http://todo.ly/api/items/10910448.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZmxhQGNydWRJdGVtcy5jb206Q1JVRA==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=2mqkcdrekarqguy4mk5ezg2s; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 07 Aug 2021 00:33:09 GMT
+Content-Length: 527
+
+{
+    "Id": 10910448,
+    "Content": "FlaItem",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628296389559)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628296387780)/",
+    "LastCheckedDate": null,
+    "LastUpdatedDate": "/Date(1628296389543)/",
+    "Deleted": true,
+    "Notes": "",
+    "InHistory": false,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690475
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
